@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Referencia:
+    https://www.w3schools.com/js/js_whereto.asp-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS interno</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/js_50_50.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <script>
+        function miFuncion() {
+            document.getElementById("texto").innerHTML = "Gracias";
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Una página web</h1>
+        <p id="texto">Un elemento p</p>
+        <button type="button" class="btn btn-outline-primary" onclick="miFuncion()">Pícale</button>
+    </div>
+
+</body>
+</html>
